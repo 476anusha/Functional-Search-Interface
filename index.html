@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown search bar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/pr.css" />
+  </head>
+  <body>
+    <div class="search-bar">
+      <div class="dropdown">
+        <div class="dropdown-text" id="drop-text">
+          <span id="span">Everything</span>
+          <i id="icon" class="fa-solid fa-chevron-down"></i>
+        </div>
+        <ul id="list" class="dropdown-list">
+          <li class="dropdown-list-item">Everything</li>
+          <li class="dropdown-list-item">Software Development</li>
+          <li class="dropdown-list-item">Web Development</li>
+          <li class="dropdown-list-item">Data Analyst</li>
+          <li class="dropdown-list-item">IT Consultant</li>
+          <li class="dropdown-list-item">Network Administrator</li>
+        </ul>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search Anything" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <script src="scrip.js"></script>
+  </body>
+</html>
